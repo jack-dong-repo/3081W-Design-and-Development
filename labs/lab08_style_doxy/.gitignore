@@ -1,0 +1,6 @@
+docs/html/*
+docs/latex/*
+*.o
+*.out
+*.pvt
+*.a

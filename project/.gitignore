@@ -1,0 +1,8 @@
+*.o
+*.exe
+*.out
+docs/l*/**
+docs/h*/**
+*.a
+build
+*.d

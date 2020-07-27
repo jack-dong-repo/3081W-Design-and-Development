@@ -1,0 +1,85 @@
+\hypertarget{classStop}{}\section{Stop Class Reference}
+\label{classStop}\index{Stop@{Stop}}
+
+
+The main class for passenger.  
+
+
+
+
+{\ttfamily \#include $<$stop.\+h$>$}
+
+
+
+Collaboration diagram for Stop\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{classStop__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classStop_a59d881f072b1cf89512bb15a51ffc773}{Stop} (int, double=44.\+973723, double=-\/93.\+235365)
+\begin{DoxyCompactList}\small\item\em Constructor for \hyperlink{classStop}{Stop} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStop_a5c5c872c082ff6aded344e2cb3e1dc76}\label{classStop_a5c5c872c082ff6aded344e2cb3e1dc76}} 
+void \hyperlink{classStop_a5c5c872c082ff6aded344e2cb3e1dc76}{Load\+Passengers} (\hyperlink{classBus}{Bus} $\ast$)
+\begin{DoxyCompactList}\small\item\em Removes passengers from stop and onto a bus. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStop_a953b0e07fd4a1b7af68e74e5ff7700d0}\label{classStop_a953b0e07fd4a1b7af68e74e5ff7700d0}} 
+void \hyperlink{classStop_a953b0e07fd4a1b7af68e74e5ff7700d0}{Add\+Passengers} (\hyperlink{classPassenger}{Passenger} $\ast$)
+\begin{DoxyCompactList}\small\item\em Addspassengers to the stop (from the generator) \end{DoxyCompactList}\item 
+int \hyperlink{classStop_a2f3b845d5a338f197226c90696314904}{Get\+Id} () const
+\begin{DoxyCompactList}\small\item\em Gets \hyperlink{classStop}{Stop} ID. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStop_a913202b0c6d4bad1498873251d5d2a2f}\label{classStop_a913202b0c6d4bad1498873251d5d2a2f}} 
+void \hyperlink{classStop_a913202b0c6d4bad1498873251d5d2a2f}{Report} () const
+\begin{DoxyCompactList}\small\item\em Prints report of stop details and metrics. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The main class for passenger. 
+
+Contains metrics of passengers of the bus system 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classStop_a59d881f072b1cf89512bb15a51ffc773}\label{classStop_a59d881f072b1cf89512bb15a51ffc773}} 
+\index{Stop@{Stop}!Stop@{Stop}}
+\index{Stop@{Stop}!Stop@{Stop}}
+\subsubsection{\texorpdfstring{Stop()}{Stop()}}
+{\footnotesize\ttfamily Stop\+::\+Stop (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{double}]{longitude = {\ttfamily 44.973723},  }\item[{double}]{latitude = {\ttfamily -\/93.235365} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Constructor for \hyperlink{classStop}{Stop} class. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em stop\+\_\+\+ID,the} & stop ID \\
+\hline
+\mbox{\tt in}  & {\em longitude\+\_\+,longitude} & is 44.\+973723 by default \\
+\hline
+\mbox{\tt in}  & {\em latitude\+\_\+,latitude} & is -\/93.\+235365 by default \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classStop_a2f3b845d5a338f197226c90696314904}\label{classStop_a2f3b845d5a338f197226c90696314904}} 
+\index{Stop@{Stop}!Get\+Id@{Get\+Id}}
+\index{Get\+Id@{Get\+Id}!Stop@{Stop}}
+\subsubsection{\texorpdfstring{Get\+Id()}{GetId()}}
+{\footnotesize\ttfamily int Stop\+::\+Get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets \hyperlink{classStop}{Stop} ID. 
+
+\begin{DoxyReturn}{Returns}
+Returns \hyperlink{classStop}{Stop} ID 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/dongx462/\+C\+S\+C\+I3081/repo-\/dongx462/labs/lab09\+\_\+project\+\_\+intro/src/\hyperlink{stop_8h}{stop.\+h}\item 
+/home/dongx462/\+C\+S\+C\+I3081/repo-\/dongx462/labs/lab09\+\_\+project\+\_\+intro/src/\hyperlink{stop_8cc}{stop.\+cc}\end{DoxyCompactItemize}
